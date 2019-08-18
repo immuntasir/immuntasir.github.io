@@ -10,7 +10,7 @@ labels:
   - Website
   - Education
   - Content Writing
-summary: I created and maintained a website, where people could post education articles. It was featured in <a href="https://www.observerbd.com/2016/02/21/137604.php">The Daily Observer Bangladesh</a>.
+summary: I created and maintained a website, where people could post education articles. I also wrote more than 80 articles on the website. The website generates around 300 views per day. It was featured in <a href="https://www.observerbd.com/2016/02/21/137604.php">The Daily Observer Bangladesh</a>.
 ---
 
 <a href="www.shoshikkha.com">Shoshikkha</a> is an education website. The main goal of this project was to create a platform to freely share educational contents in Bengali to help facilitate easier dissemination of knowledge, which is not very available in text format on the web. Though the writers have gone inactive later, the website still generates around 300 views daily.
