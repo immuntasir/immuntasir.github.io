@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/java-language.png
 title: Online Whiteboard
-draft: true
+draft: false
 permalink: projects/java-project
 # All dates must be YYYY-MM-DD format!
 date: 2016-07-31
