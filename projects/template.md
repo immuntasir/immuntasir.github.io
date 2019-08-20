@@ -16,3 +16,5 @@ summary: A graphical game written in the C language
 <strong>Teammate</strong>: Sadman Sakib
 
 This was completed as part of the CSE-1211 (Computer Programming II) lab course. 
+
+<strong>Source</strong>: I will share the source as soon as I upload the project in Github.
