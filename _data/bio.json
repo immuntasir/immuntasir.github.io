@@ -44,17 +44,22 @@
       ]
     },
     {
-      "name": "Data Mining",
-      "keywords": [
-      ]
-    },
-    {
       "name": "Machine Learning",
       "keywords": [
       ]
     },
     {
-      "name": "Artificial Intelligence",
+      "name": "Computational Social Science",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Low Resource Languages",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Statistical Analysis",
       "keywords": [
       ]
     }
