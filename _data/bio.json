@@ -6,7 +6,7 @@
     "email": "mun@vt.edu",
     "phone": "880-*********",
     "website": "https://immuntasir.github.io",
-    "summary": "<p>Currently Currently pursuing Ph.D. in Computer Science at Virginia Tech. Experienced on several roles like Machine Learning Engineer (TigerIT Bangladesh Limited), Research Assistant (Data & Design Lab), and Software Engineer (Enosis Solutions).</p>",
+    "summary": "<p>Currently pursuing Ph.D. in Computer Science at Virginia Tech. Experienced on several roles including Machine Learning Engineer (TigerIT Bangladesh Limited), Research Assistant (Data & Design Lab), and Software Engineer (Enosis Solutions).</p>",
     "location": {
       "address": "",
       "postalCode": "4203",
@@ -49,12 +49,12 @@
       ]
     },
     {
-      "name": "Computational Social Science",
+      "name": "Self-Supervised Learning",
       "keywords": [
       ]
     },
     {
-      "name": "Low Resource Languages",
+      "name": "Contrastive Learning",
       "keywords": [
       ]
     },
