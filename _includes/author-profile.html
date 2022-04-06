@@ -32,11 +32,11 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
-      {% if author.resume_file %}
-        <li><a href="{{ author.resume_file | prepend: base_path }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].resume_label | default: "Resume" }}</a></li>
-      {% endif %}
       {% if author.cv_file %}
         <li><a href="{{ author.cv_file | prepend: base_path }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].cv_label | default: "CV" }}</a></li>
+      {% endif %}
+      {% if author.resume_file %}
+        <li><a href="{{ author.resume_file | prepend: base_path }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].resume_label | default: "Resume" }}</a></li>
       {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
