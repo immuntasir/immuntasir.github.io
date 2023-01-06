@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently pursuing my **Ph.D. in Computer Science** at **Virginia Tech**. Broadly I am interested in robust feature representations in machine learning. More specifically, I am working on contrastive learning, mixture-of-experts, and out-of-distribution detection. I will be working as an intern at **IBM Research** in Summer 2022.
+I am currently pursuing my **Ph.D. in Computer Science** at **Virginia Tech**. Broadly I am interested in robust feature representations in machine learning. More specifically, I am working on contrastive learning, mixture-of-experts, and out-of-distribution detection. I have interned at ****IBM Research**** in Summer 2022 and will be going for another internship in 2023.
 
 Before starting my graduate studies, I completed my undergrad at the University of Dhaka. I have prior experience working as a Full Stack Web Developer at Enosis Solutions. More recently, I have worked as a Machine Learning Engineer (R&D) at TigerIT Bangladesh Ltd., where I have worked with signal processing and video classification. I have also worked as a Research Assistant at Data & Design Lab, where I have worked with Satellite data to design socio-economic proxies. While working at Data & Design Lab I have also collaborated with BRAC on UID generation project, COVID-19 data analysis, and the development of a web portal for economic data analysis.
 
@@ -16,6 +16,9 @@ I have a fairly good understanding of statistical concepts and machine learning,
 
 News
 ======
+- **December, 2022**: I was awarded the Pratt Fellowship by the Department of Computer Science at Virginia Tech.
+- **October, 2021**: My paper on Privacy-Preserving Data Sharing Framework was accepted to IEEE BigData 2022.
+- **May, 2022**: Started my internship at **IBM Research**.
 - **August, 2021**: My paper on truncated sparse bit-vector representations was accepted to CIKM’21 Applied Track (joint work with IBM Research).
 - **February, 2021**: Started working with Dr. Ismini Lourentzou.
 - **January, 2021**: Joined Virginia Tech as a Ph.D. Student in Computer Science.
