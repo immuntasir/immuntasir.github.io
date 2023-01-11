@@ -18,7 +18,7 @@ News
 ======
 - **December, 2022**: I was awarded the Pratt Fellowship by the Department of Computer Science at Virginia Tech.
 - **October, 2021**: My paper on Privacy-Preserving Data Sharing Framework was accepted to IEEE BigData 2022.
-- **May, 2022**: Started my internship at **IBM Research**.
+- **May, 2022**: Started my internship at IBM Research.
 - **August, 2021**: My paper on truncated sparse bit-vector representations was accepted to CIKM’21 Applied Track (joint work with IBM Research).
 - **February, 2021**: Started working with Dr. Ismini Lourentzou.
 - **January, 2021**: Joined Virginia Tech as a Ph.D. Student in Computer Science.
