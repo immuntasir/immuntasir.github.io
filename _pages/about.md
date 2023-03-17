@@ -16,10 +16,12 @@ I have a fairly good understanding of statistical concepts and machine learning,
 
 News
 ======
+- **March, 2022**: Our [paper](https://www.science.org/doi/abs/10.1126/science.ade2420) got accepted in Science.
+- **January, 2022**: Our team was selected to participate in [Alexa Prize TaskBot Challenge 2](https://www.amazon.science/alexa-prize/taskbot-challenge/ten-university-teams-selected-for-alexa-prize-taskbot-challenge-2).
 - **December, 2022**: I was awarded the Pratt Fellowship by the Department of Computer Science at Virginia Tech.
-- **October, 2021**: My paper on Privacy-Preserving Data Sharing Framework was accepted to IEEE BigData 2022.
+- **October, 2022**: My [paper](https://ieeexplore.ieee.org/abstract/document/10020861) on Privacy-Preserving Data Sharing Framework was accepted to IEEE BigData 2022.
 - **May, 2022**: Started my internship at IBM Research.
-- **August, 2021**: My paper on truncated sparse bit-vector representations was accepted to CIKM’21 Applied Track (joint work with IBM Research).
+- **August, 2021**: My [paper](https://dl.acm.org/doi/abs/10.1145/3459637.3481950) on truncated sparse bit-vector representations was accepted to CIKM’21 Applied Track (joint work with IBM Research).
 - **February, 2021**: Started working with Dr. Ismini Lourentzou.
 - **January, 2021**: Joined Virginia Tech as a Ph.D. Student in Computer Science.
 - **December, 2020**: Left TigerIT Bangladesh Limited
