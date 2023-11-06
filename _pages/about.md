@@ -20,13 +20,13 @@ News
 - **August, 2023**: Our team advanced to the finals of the Amazon Alexa Prize Taskbot Challenge 2.
 - **August, 2023**: My [paper](https://doi.org/10.1145/3583780.3615485) on human-in-the-loop model selection for set expansion got accepted at the 32nd ACM International Conference on Information and Knowledge Management (CIKM).
 - **May, 2023**: Started my internship at IBM Research.
+- **May, 2023**: I completed my M.S. in Computer Science from Virginia Tech.
 - **March, 2023**: Our [paper](https://www.science.org/doi/abs/10.1126/science.ade2420) got accepted in Science.
 - **January, 2023**: Our team was selected to participate in [Alexa Prize TaskBot Challenge 2](https://www.amazon.science/alexa-prize/taskbot-challenge/ten-university-teams-selected-for-alexa-prize-taskbot-challenge-2).
 - **December, 2022**: I was awarded the Pratt Fellowship by the Department of Computer Science at Virginia Tech.
 - **October, 2022**: My [paper](https://ieeexplore.ieee.org/abstract/document/10020861) on Privacy-Preserving Data Sharing Framework was accepted to IEEE BigData 2022.
 - **May, 2022**: Started my internship at IBM Research.
 - **August, 2021**: My [paper](https://dl.acm.org/doi/abs/10.1145/3459637.3481950) on truncated sparse bit-vector representations was accepted to CIKM’21 Applied Track (joint work with IBM Research).
-- **February, 2021**: Started working with Dr. Ismini Lourentzou.
 - **January, 2021**: Joined Virginia Tech as a Ph.D. Student in Computer Science.
 - **December, 2020**: Left TigerIT Bangladesh Limited
 - **June, 2020**: Joined TigerIT Bangladesh Limited as a Machine Learning Software Engineer
