@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently pursuing my **Ph.D. in Computer Science** at **Virginia Tech**. Broadly I am interested in robust feature representations in machine learning. More specifically, my work encompasses representation learning, multi-modal learning, self-supervised learning, information retrieval, and conversational AI. I have recently received a highly selective Pratt Graduate Fellowship from the CS Department. I was also nominated for the Outstanding Doctoral Student Award. As an **IBM Research** intern, my work resulted in one conference paper under review and one pending patent. I am also part of one of the ten teams selected for the Amazon Alexa Prize Taskbot Challenge 2.  
+I am currently pursuing my **Ph.D. in Computer Science** at **Virginia Tech**. Broadly I am interested in robust feature representations in machine learning. More specifically, my work encompasses representation learning, multi-modal learning, self-supervised learning, information retrieval, and conversational AI. I have recently received a highly selective Pratt Graduate Fellowship from the CS Department. I was also nominated for the Outstanding Doctoral Student Award. As an **IBM Research** intern, my work resulted in one conference paper under review and one pending patent. I am also part of one of the finalist teams at the Amazon Alexa Prize Taskbot Challenge 2.  
 
 Before starting my graduate studies, I completed my undergrad at the University of Dhaka. I have prior experience working as a Full Stack Web Developer at Enosis Solutions. More recently, I have worked as a Machine Learning Engineer (R&D) at TigerIT Bangladesh Ltd., where I have worked with signal processing and video classification. I have also worked as a Research Assistant at Data & Design Lab, where I have worked with Satellite data to design socio-economic proxies. While working at Data & Design Lab I have also collaborated with BRAC on UID generation project, COVID-19 data analysis, and the development of a web portal for economic data analysis.
 
@@ -16,8 +16,12 @@ I have a fairly good understanding of statistical concepts and machine learning,
 
 News
 ======
-- **March, 2022**: Our [paper](https://www.science.org/doi/abs/10.1126/science.ade2420) got accepted in Science.
-- **January, 2022**: Our team was selected to participate in [Alexa Prize TaskBot Challenge 2](https://www.amazon.science/alexa-prize/taskbot-challenge/ten-university-teams-selected-for-alexa-prize-taskbot-challenge-2).
+- **October, 2023**: Our paper got accepted at the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV).
+- **August, 2023**: Our team advanced to the finals of the Amazon Alexa Prize Taskbot Challenge 2.
+- **August, 2023**: Our [paper](https://doi.org/10.1145/3583780.3615485) got accepted at the 32nd ACM International Conference on Information and Knowledge Management (CIKM).
+- **May, 2023**: Started my internship at IBM Research.
+- **March, 2023**: Our [paper](https://www.science.org/doi/abs/10.1126/science.ade2420) got accepted in Science.
+- **January, 2023**: Our team was selected to participate in [Alexa Prize TaskBot Challenge 2](https://www.amazon.science/alexa-prize/taskbot-challenge/ten-university-teams-selected-for-alexa-prize-taskbot-challenge-2).
 - **December, 2022**: I was awarded the Pratt Fellowship by the Department of Computer Science at Virginia Tech.
 - **October, 2022**: My [paper](https://ieeexplore.ieee.org/abstract/document/10020861) on Privacy-Preserving Data Sharing Framework was accepted to IEEE BigData 2022.
 - **May, 2022**: Started my internship at IBM Research.
