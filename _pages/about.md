@@ -16,9 +16,9 @@ I have a fairly good understanding of statistical concepts and machine learning,
 
 News
 ======
-- **October, 2023**: Our paper got accepted at the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV).
+- **October, 2023**: My paper on multi-modal representation learning for image-to-text and text-to-image retrieval got accepted at the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV).
 - **August, 2023**: Our team advanced to the finals of the Amazon Alexa Prize Taskbot Challenge 2.
-- **August, 2023**: Our [paper](https://doi.org/10.1145/3583780.3615485) got accepted at the 32nd ACM International Conference on Information and Knowledge Management (CIKM).
+- **August, 2023**: My [paper](https://doi.org/10.1145/3583780.3615485) on human-in-the-loop model selection for set expansion got accepted at the 32nd ACM International Conference on Information and Knowledge Management (CIKM).
 - **May, 2023**: Started my internship at IBM Research.
 - **March, 2023**: Our [paper](https://www.science.org/doi/abs/10.1126/science.ade2420) got accepted in Science.
 - **January, 2023**: Our team was selected to participate in [Alexa Prize TaskBot Challenge 2](https://www.amazon.science/alexa-prize/taskbot-challenge/ten-university-teams-selected-for-alexa-prize-taskbot-challenge-2).
