@@ -8,11 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am currently pursuing my **Ph.D. in Computer Science** at **University of Illinois Urbana-Champaign**. Broadly I am interested in robust feature representations in machine learning. More specifically, my work encompasses representation learning, multi-modal learning, self-supervised learning, information retrieval, and conversational AI. I have interned at IBM Research for Summer '22, '23, and '24. As an **IBM Research** intern, my work resulted in one conference paper and two patents (one filed and one pending). 
+I am pursuing my **Ph.D. in Computer Science** at the **University of Illinois Urbana-Champaign**, advised by Dr. Ismini Lourentzou. My research focuses on robust feature representations in machine learning, with specific interests in representation learning, multi-modal learning, self-supervised learning, information retrieval, and conversational AI.
 
-Before starting my Ph.D. at UIUC, I completed my B.Sc. in Computer Science & Engineering at the University of Dhaka and M.Sc. in Computer Science at Virginia Tech. I have prior experience working as a Full Stack Web Developer at Enosis Solutions. More recently, I have worked as a Machine Learning Engineer (R&D) at TigerIT Bangladesh Ltd., where I have worked with signal processing and video classification. I have also worked as a Research Assistant at Data & Design Lab, where I have worked with Satellite data to design socio-economic proxies. While working at Data & Design Lab I have also collaborated with BRAC on UID generation project, COVID-19 data analysis, and the development of a web portal for economic data analysis. I was also part of one of the finalist teams at the Amazon Alexa Prize Taskbot Challenge 2.  
+During my internships at **IBM Research - Almaden Lab** in Summer '22, '23, and '24, I contributed to projects that resulted in a conference paper and two patents (one filed and one pending).
 
-I have an excellent understanding of statistical concepts and machine learning, and a broad experience with programming language and frameworks, especially Python and C. Additionally, I have experience working with Android and Full Stack Web Development. A combination of these skills makes me a strong candidate for R&D jobs, where prototype development is as important as researching new frontiers.
+I completed my B.Sc. in Computer Science & Engineering at the University of Dhaka and M.Sc. in Computer Science at Virginia Tech. I have worked as a Full Stack Web Developer at Enosis Solutions and as a Machine Learning Engineer (R&D) at TigerIT Bangladesh Ltd., where I specialized in signal processing and video classification.
+
+As a Research Assistant at the Data & Design Lab, I collaborated on projects utilizing satellite data for socio-economic proxies and worked with BRAC on UID generation, COVID-19 data analysis, and developing a web portal for economic data analysis. Additionally, I was part of one of the finalist teams in the Amazon Alexa Prize Taskbot Challenge 2.
+
+I possess a deep understanding of statistical concepts, deep learning, and large language models, along with extensive experience in programming languages and frameworks, particularly Python and C. My background also includes Android and Full Stack Web Development, making me well-suited for R&D roles where both prototype development and pioneering research are critical.
 
 News
 ======
