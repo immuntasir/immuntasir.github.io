@@ -8,15 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am pursuing my **Ph.D. in Computer Science** at the **University of Illinois Urbana-Champaign**, advised by Dr. Ismini Lourentzou. My research focuses on robust feature representations in machine learning, with specific interests in representation learning, multi-modal learning, self-supervised learning, information retrieval, and conversational AI.
+I am a **Ph.D. student** in Computer Science at the **University of Illinois Urbana-Champaign**, advised by Dr. Ismini Lourentzou. My research focuses on **trustworthy and multi-modal machine learning**, with interests in vision-language models, grounded response generation, and conversational AI. I specialize in building robust AI models that can handle missing information, mitigate adversarial attacks, and defend against harmful or malicious content.
 
-During my internships at **IBM Research - Almaden Lab** in Summer '22, '23, and '24, I contributed to projects that resulted in a conference paper and two patents (one filed and one pending).
+Previously, I earned my M.S. in Computer Science from Virginia Tech and my B.Sc. in Computer Science & Engineering from the University of Dhaka. I interned at IBM Research (Almaden Lab) in the summers of ‘22, ‘23, and ‘24, contributing to projects on LLM evaluation, sensitive personally identifiable information (PII) detection, ontology construction, and human-in-the-loop learning, resulting in a conference paper and two patents (one filed, one pending). 
 
-I completed my B.Sc. in Computer Science & Engineering at the University of Dhaka and M.Sc. in Computer Science at Virginia Tech. I have worked as a Full Stack Web Developer at Enosis Solutions and as a Machine Learning Engineer (R&D) at TigerIT Bangladesh Ltd., where I specialized in signal processing and video classification.
+I am currently co-leading a team in the **Amazon Trusted AI Challenge**, where we are developing code generation models that produce secure, non-vulnerable code and are robust against malicious prompts. Additionally, I was part of a finalist team in the **Amazon Alexa Prize TaskBot Challenge 2**, where my work included task-oriented conversational AI, dynamic caching, harmful content filtering, and intent classification.
 
-As a Research Assistant at the Data & Design Lab, I collaborated on projects utilizing satellite data for socio-economic proxies and worked with BRAC on UID generation, COVID-19 data analysis, and developing a web portal for economic data analysis. Additionally, I was part of one of the finalist teams in the Amazon Alexa Prize Taskbot Challenge 2.
-
-I possess a deep understanding of statistical concepts, deep learning, and large language models, along with extensive experience in programming languages and frameworks, particularly Python and C. My background also includes Android and Full Stack Web Development, making me well-suited for R&D roles where both prototype development and pioneering research are critical.
+My industry experience includes roles as a Machine Learning Engineer at TigerIT Bangladesh Ltd., where I worked on video classification and signal processing, and as a Full Stack Developer at Enosis Solutions. As a Research Assistant at the Data & Design Lab, I collaborated on socio-economic modeling using satellite data and developed data-driven tools for BRAC. My expertise spans deep learning, large language models, and robust ML, with strong programming skills in Python, C, and full-stack development.
 
 News
 ======
