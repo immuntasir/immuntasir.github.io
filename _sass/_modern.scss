@@ -149,41 +149,65 @@
   margin-bottom: 1rem;
 }
 
-.research-interests {
+/* ===== Research Tags ===== */
+.research-tags {
   margin-top: 1.5rem;
-  padding: 1.5rem;
-  background: var(--bg-light);
-  border-radius: 8px;
-  border-left: 4px solid var(--primary-color);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
 }
 
-.research-interests h3 {
-  font-size: 1.25rem;
-  margin: 0 0 1rem 0;
-  color: var(--primary-color);
+.tag {
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  transition: var(--transition);
+  cursor: default;
+  border: none;
 }
 
-.research-interests ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 0.5rem;
+.tag:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
 }
 
-.research-interests li {
-  padding: 0.5rem;
-  background: var(--bg-white);
-  border-radius: 4px;
-  font-size: 0.95rem;
-  color: var(--text-dark);
+/* Pastel Colors for Tags */
+.tag-1 {
+  background: #FFE4E1; /* Misty Rose */
+  color: #8B4B3B;
 }
 
-.research-interests li:before {
-  content: "▸ ";
-  color: var(--primary-color);
-  font-weight: bold;
+.tag-2 {
+  background: #E1F5FE; /* Light Blue */
+  color: #0D47A1;
+}
+
+.tag-3 {
+  background: #F3E5F5; /* Lavender */
+  color: #6A1B9A;
+}
+
+.tag-4 {
+  background: #E8F5E8; /* Light Green */
+  color: #2E7D32;
+}
+
+.tag-5 {
+  background: #FFF3E0; /* Light Orange */
+  color: #E65100;
+}
+
+@media (max-width: 768px) {
+  .research-tags {
+    gap: 0.6rem;
+  }
+  
+  .tag {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
 }
 
 /* ===== News Section ===== */
@@ -236,6 +260,119 @@
 .news-text a:hover {
   color: var(--secondary-color);
   text-decoration: underline;
+}
+
+/* ===== News Timeline (Home Page) ===== */
+.news-timeline-home {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.news-timeline-home::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border-color);
+}
+
+.news-timeline-home .news-item-full {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.news-timeline-home .news-item-full::before {
+  content: '';
+  position: absolute;
+  left: -2.5rem;
+  top: 0.3rem;
+  width: 8px;
+  height: 8px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  border: 2px solid var(--bg-white);
+  box-shadow: 0 0 0 1px var(--primary-color);
+}
+
+.news-timeline-home .news-date-full {
+  flex-shrink: 0;
+  text-align: center;
+  min-width: 60px;
+}
+
+.news-timeline-home .news-date-full .month {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.news-timeline-home .news-date-full .year {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-light);
+  font-weight: 600;
+}
+
+.news-timeline-home .news-content-full {
+  flex: 1;
+  background: var(--bg-white);
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.news-timeline-home .news-content-full:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
+}
+
+.news-timeline-home .news-content-full p {
+  margin: 0;
+  color: var(--text-dark);
+  line-height: 1.4;
+  font-size: 0.9rem;
+}
+
+.news-timeline-home .news-content-full a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.news-timeline-home .news-content-full a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .news-timeline-home {
+    padding-left: 1rem;
+  }
+  
+  .news-timeline-home .news-item-full {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .news-timeline-home .news-item-full::before {
+    left: -1.5rem;
+  }
+  
+  .news-timeline-home .news-date-full {
+    display: flex;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  
+  .news-timeline-home .news-date-full .month {
+    font-size: 1rem;
+  }
 }
 
 /* ===== Featured Publications ===== */

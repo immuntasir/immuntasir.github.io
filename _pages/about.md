@@ -70,26 +70,28 @@ redirect_from:
         
         <p>Previously, I earned my <strong>M.S. in Computer Science</strong> from <strong>Virginia Tech</strong> and my <strong>B.Sc. in Computer Science & Engineering</strong> from the <strong>University of Dhaka</strong>. My technical expertise spans large language models, vision-language models, and robust ML, backed by strong technical skills in Python, C, and full-stack development.</p>
         
-        <div class="research-interests">
-          <h3>Research Interests</h3>
-          <ul>
-            <li>Trustworthy ML</li>
-            <li>Vision-Language Models</li>
-            <li>Adversarial Robustness</li>
-            <li>Conversational AI</li>
-            <li>Multi-modal Learning</li>
-          </ul>
+        <div class="research-tags">
+          <div class="tag tag-1">Trustworthy ML</div>
+          <div class="tag tag-2">Vision-Language Models</div>
+          <div class="tag tag-3">Adversarial Robustness</div>
+          <div class="tag tag-4">Conversational AI</div>
+          <div class="tag tag-5">Multi-modal Learning</div>
         </div>
       </div>
     </section>
     
     <section class="news-section">
       <h2>News</h2>
-      <div class="news-list">
+      <div class="news-timeline-home">
         {% for item in site.data.news limit:6 %}
-        <div class="news-item">
-          <span class="news-date">{{ item.date | date: "%B %Y" }}</span>
-          <p class="news-text">{{ item.text | markdownify }}</p>
+        <div class="news-item-full">
+          <div class="news-date-full">
+            <span class="month">{{ item.date | date: "%b" }}</span>
+            <span class="year">{{ item.date | date: "%Y" }}</span>
+          </div>
+          <div class="news-content-full">
+            {{ item.text | markdownify }}
+          </div>
         </div>
         {% endfor %}
       </div>
