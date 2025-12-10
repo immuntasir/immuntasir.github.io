@@ -1,16 +1,125 @@
 ---
-layout: archive
+layout: new-publications
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
-You can also find my articles on <u><a href="https://scholar.google.com/citations?user=ItE5a5cAAAAJ&hl=en">my Google Scholar profile</a>.</u>
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
 
-{% include base_path %}
+<div class="publications-page">
+  <div class="page-header">
+    <h1>Publications</h1>
+    <p class="subtitle">You can also find my articles on <a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a>.</p>
+  </div>
+  
+  <div class="publications-container">
+    {% assign sorted_pubs = site.data.publications.publications | sort: 'date' | reverse %}
+    
+    {% for pub in sorted_pubs %}
+    <article class="publication-item">
+      {% if pub.image %}
+      <div class="pub-image-large">
+        <img src="{{ site.baseurl }}/{{ pub.image }}" alt="{{ pub.title }}">
+      </div>
+      {% endif %}
+      
+      <div class="pub-content-main">
+        <div class="pub-header">
+          <h2 class="pub-title">{{ pub.title }}</h2>
+        </div>
+        
+        <div class="pub-meta">
+          <p class="pub-authors">
+            {% for author in pub.authors %}
+              {% if author == site.author.name %}
+                <strong>{{ author }}</strong>{% unless forloop.last %}, {% endunless %}
+              {% else %}
+                {{ author }}{% unless forloop.last %}, {% endunless %}
+              {% endif %}
+            {% endfor %}
+          </p>
+          
+          <p class="pub-venue-date">
+            {% if pub.publisher %}
+            <span class="venue">{{ pub.publisher }}</span>
+            {% elsif pub.venue %}
+            <span class="venue">{{ pub.venue }}</span>
+            {% endif %}
+            <span class="date">{{ pub.date | date: "%Y" }}</span>
+          </p>
+        </div>
+      
+      {% if pub.abstract %}
+      <div class="pub-abstract">
+        <p>{{ pub.abstract }}</p>
+      </div>
+      {% endif %}
+      
+      <div class="pub-actions">
+        {% if pub.link %}
+        <a href="{{ pub.link }}" class="btn btn-primary" target="_blank">
+          <i class="fas fa-link"></i> Paper
+        </a>
+        {% endif %}
+        
+        {% if pub.pdf %}
+        <a href="{{ pub.pdf }}" class="btn btn-secondary" target="_blank">
+          <i class="fas fa-file-pdf"></i> PDF
+        </a>
+        {% endif %}
+        
+        {% if pub.code %}
+        <a href="{{ pub.code }}" class="btn btn-secondary" target="_blank">
+          <i class="fab fa-github"></i> Code
+        </a>
+        {% endif %}
+        
+        {% if pub.slides %}
+        <a href="{{ pub.slides }}" class="btn btn-secondary" target="_blank">
+          <i class="fas fa-presentation"></i> Slides
+        </a>
+        {% endif %}
+        
+        {% if pub.video %}
+        <a href="{{ pub.video }}" class="btn btn-secondary" target="_blank">
+          <i class="fas fa-video"></i> Video
+        </a>
+        {% endif %}
+        
+        {% if pub.bibtex %}
+        <button class="btn btn-secondary bibtex-toggle" data-target="bibtex-{{ forloop.index }}">
+          <i class="fas fa-quote-right"></i> BibTeX
+        </button>
+        {% endif %}
+        
+        {% if pub.id %}
+        <span class="pub-doi">DOI: <a href="https://doi.org/{{ pub.id | remove: 'doi:' }}" target="_blank">{{ pub.id | remove: 'doi:' }}</a></span>
+        {% endif %}
+      </div>
+      
+        {% if pub.bibtex %}
+        <div class="bibtex-container" id="bibtex-{{ forloop.index }}" style="display: none;">
+          <pre><code>{{ pub.bibtex }}</code></pre>
+        </div>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<script>
+// Toggle BibTeX display
+document.querySelectorAll('.bibtex-toggle').forEach(button => {
+  button.addEventListener('click', function() {
+    const targetId = this.getAttribute('data-target');
+    const container = document.getElementById(targetId);
+    if (container.style.display === 'none') {
+      container.style.display = 'block';
+      this.classList.add('active');
+    } else {
+      container.style.display = 'none';
+      this.classList.remove('active');
+    }
+  });
+});
+</script>

@@ -1,28 +1,133 @@
 ---
+layout: new-home
+title: "Muntasir Wahed"
 permalink: /
-title: "About Me"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
+  - /new/
 ---
 
-I am a **Ph.D. student** in Computer Science at the **University of Illinois Urbana-Champaign**, advised by Dr. Ismini Lourentzou, with an expected graduation in May 2026. My research focuses on **trustworthy and multi-modal machine learning**, with interests in vision-language models, grounded response generation, and conversational AI. I specialize in building robust AI models that can handle missing information, mitigate adversarial attacks, and defend against harmful or malicious content. 
-
-My experience includes internships at **Google DeepMind** on the Gemini App team and three summers at **IBM Research (Almaden Lab)**. My work at Google DeepMind resulted in one paper submitted for internal review and one invention disclosure. Previously, my work at IBM Research on human-in-the-loop learning and PII detection resulted in a conference paper, a granted patent, and two additional invention disclosures.
-
-I am the co-lead of the winning team for the **2025 Amazon Nova AI Challenge**, where we developed models that are robust against malicious prompts and reliably generate code secure against Common Weakness Enumerations (CWEs). Additionally, I was part of a finalist team in the **Amazon Alexa Prize TaskBot Challenge 2**, contributing to task-oriented conversational AI, dynamic caching, and harmful content filtering.
-
-Previously, I earned my M.S. in Computer Science from Virginia Tech and my B.Sc. in Computer Science & Engineering from the University of Dhaka. In addition, I have experience working as a Machine Learning Engineer at TigerIT Bangladesh Ltd. and a Full Stack Developer at Enosis Solutions. My expertise spans large language models, vision-language models, conversational AI, and robust ML, with strong programming skills in Python, C, and full-stack development.
-
-News
-======
-- **August, 2025**: Our [paper](hhttps://arxiv.org/abs/2507.19598) on adversarial robustness of code language models got accepted in EMNLP '25.
-- **July, 2025**: We won the [Amazon Nova AI Challenge](https://www.amazon.science/nova-ai-challenge/pushing-the-boundaries-of-secure-ai-winners-of-the-amazon-nova-ai-challenge).
-- **May, 2025**: Started my internship at Google DeepMind.
-- **February, 2025**: Our [paper](https://arxiv.org/abs/2412.19331) on part-focused semantic co-segmentation with vision-language models got accepted in CVPR '25.
-- **May, 2024**: Started my internship at IBM Research.
-- **October, 2023**: My paper on multi-modal representation learning for image-to-text and text-to-image retrieval got accepted at the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV).
-- **August, 2023**: Our team advanced to the finals of the Amazon Alexa Prize Taskbot Challenge 2.
-- **August, 2023**: My [paper](https://doi.org/10.1145/3583780.3615485) on human-in-the-loop model selection for set expansion got accepted at the 32nd ACM International Conference on Information and Knowledge Management (CIKM).
+<!-- This is the modern homepage -->
+<div class="modern-home">
+  <div class="hero-section">
+    <div class="profile-container">
+      <div class="profile-image">
+        <img src="{{ site.baseurl }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}">
+      </div>
+      <div class="profile-info">
+        <h1>{{ site.author.name }}</h1>
+        <p class="tagline">Ph.D. Candidate, UIUC</p>
+        <p class="affiliation">{{ site.author.current_dept }}<br>{{ site.author.current_org }}</p>
+        
+        <div class="social-links">
+          {% if site.author.email %}
+          <a href="mailto:{{ site.author.email }}" class="social-link" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          {% endif %}
+          
+          {% if site.author.googlescholar %}
+          <a href="{{ site.author.googlescholar }}" class="social-link" title="Google Scholar" target="_blank">
+            <i class="ai ai-google-scholar"></i>
+          </a>
+          {% endif %}
+          
+          {% if site.author.linkedin %}
+          <a href="https://linkedin.com/in/{{ site.author.linkedin }}" class="social-link" title="LinkedIn" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          {% endif %}
+          
+          {% if site.author.github %}
+          <a href="https://github.com/{{ site.author.github }}" class="social-link" title="GitHub" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          {% endif %}
+          
+          {% if site.author.twitter %}
+          <a href="https://twitter.com/{{ site.author.twitter }}" class="social-link" title="Twitter" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          {% endif %}
+          
+          <a href="{{ site.baseurl }}/files/cv.pdf" class="social-link" title="CV">
+            <i class="fas fa-file-pdf"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="content-grid">
+    <section class="about-section">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>I am a <strong>Ph.D. candidate</strong> in Computer Science at the <strong>University of Illinois Urbana-Champaign</strong>, advised by Dr. Ismini Lourentzou, with an expected graduation in May 2026. My research focuses on <strong>trustworthy and multi-modal machine learning</strong>, with interests in vision-language models, grounded response generation, and conversational AI.</p>
+        
+        <p>I specialize in building robust AI models that can handle missing information, mitigate adversarial attacks, and defend against harmful or malicious content. My experience includes internships at <strong>Google DeepMind</strong> on the Gemini App team and three summers at <strong>IBM Research (Almaden Lab)</strong>.</p>
+        
+        <p>I am the co-lead of the winning team for the <strong>2025 Amazon Nova AI Challenge</strong>, where we developed models that are robust against malicious prompts and reliably generate code secure against Common Weakness Enumerations (CWEs). Additionally, I was part of a finalist team in the <strong>Amazon Alexa Prize TaskBot Challenge 2</strong>.</p>
+        
+        <div class="research-interests">
+          <h3>Research Interests</h3>
+          <ul>
+            <li>Trustworthy Machine Learning</li>
+            <li>Vision-Language Models</li>
+            <li>Adversarial Robustness</li>
+            <li>Conversational AI</li>
+            <li>Multi-modal Learning</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <section class="news-section">
+      <h2>News</h2>
+      <div class="news-list">
+        {% for item in site.data.news limit:6 %}
+        <div class="news-item">
+          <span class="news-date">{{ item.date | date: "%B %Y" }}</span>
+          <p class="news-text">{{ item.text | markdownify }}</p>
+        </div>
+        {% endfor %}
+      </div>
+      <a href="{{ site.baseurl }}/news/" class="view-more">View all news →</a>
+    </section>
+  </div>
+  
+  <section class="highlights-section">
+    <h2>Featured Publications</h2>
+    <div class="publications-grid">
+      {% for pub in site.data.publications.publications %}
+      {% if pub.featured %}
+      <div class="publication-card">
+        {% if pub.image %}
+        <div class="pub-image">
+          <img src="{{ site.baseurl }}/{{ pub.image }}" alt="{{ pub.title }}">
+        </div>
+        {% endif %}
+        <div class="pub-content">
+          <h3>{{ pub.title }}</h3>
+          <p class="pub-authors">{{ pub.authors | join: ", " }}</p>
+          <p class="pub-venue">{{ pub.venue }} • {{ pub.date | date: "%Y" }}</p>
+          <div class="pub-links">
+            {% if pub.link %}
+            <a href="{{ pub.link }}" target="_blank">Paper</a>
+            {% endif %}
+            {% if pub.pdf %}
+            <a href="{{ pub.pdf }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if pub.code %}
+            <a href="{{ pub.code }}" target="_blank">Code</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <a href="{{ site.baseurl }}/publications/" class="view-more">View all publications →</a>
+  </section>
+</div>
