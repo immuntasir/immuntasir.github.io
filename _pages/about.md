@@ -52,7 +52,7 @@ redirect_from:
           </a>
           {% endif %}
           
-          <a href="{{ site.baseurl }}/files/cv.pdf" class="social-link" title="CV">
+          <a href="{{ site.baseurl }}/cv/" class="social-link" title="CV">
             <i class="fas fa-file-pdf"></i>
           </a>
         </div>
@@ -64,16 +64,16 @@ redirect_from:
     <section class="about-section">
       <h2>About Me</h2>
       <div class="about-content">
-        <p>I am a <strong>Ph.D. candidate</strong> in Computer Science at the <strong>University of Illinois Urbana-Champaign</strong>, advised by Dr. Ismini Lourentzou, with an expected graduation in May 2026. My research focuses on <strong>trustworthy and multi-modal machine learning</strong>, with interests in vision-language models, grounded response generation, and conversational AI.</p>
+        <p>I am a **Ph.D. candidate** in Computer Science at the **University of Illinois Urbana-Champaign** (Siebel School of Computing and Data Science), advised by Dr. Ismini Lourentzou. My research focuses on **trustworthy and multi-modal foundation models**, specifically aiming to advance the robustness and real-world reliability of foundation models. I specialize in addressing fundamental weaknesses in AI systems, such as failures under long-tail distributions, adversarial interactions, and missing inputs, to build models that are safe, grounded, and technically rigorous. My research has been published in premier venues, including **CVPR**, **NeurIPS**, **EMNLP**, **WACV**, and **CIKM**.</p>
         
-        <p>I specialize in building robust AI models that can handle missing information, mitigate adversarial attacks, and defend against harmful or malicious content. My experience includes internships at <strong>Google DeepMind</strong> on the Gemini App team and three summers at <strong>IBM Research (Almaden Lab)</strong>.</p>
+        <p>I have significant industry research experience, most recently as a Intern at **Google DeepMind** on the **Gemini App** team. Previously, I spent three summers at **IBM Research (Almaden Lab)**, where my work on human-in-the-loop learning resulted in two U.S. patents and multiple publications. I co-led the winning team for the **Amazon NOVA AI Challenge**, developing methodologies for LLM safety and code security that led to publications at **NeurIPS 2025** and **EMNLP 2025**. Earlier, I was part of a finalist team in the **Amazon Alexa Prize TaskBot Challenge 2**, contributing to the design of a multimodal conversational agent deployed to thousands of users.</p>
         
-        <p>I am the co-lead of the winning team for the <strong>2025 Amazon Nova AI Challenge</strong>, where we developed models that are robust against malicious prompts and reliably generate code secure against Common Weakness Enumerations (CWEs). Additionally, I was part of a finalist team in the <strong>Amazon Alexa Prize TaskBot Challenge 2</strong>.</p>
+        <p>Previously, I earned my **M.S. in Computer Science** from **Virginia Tech** and my **B.Sc. in Computer Science & Engineering** from the **University of Dhaka**. My technical expertise spans large language models, vision-language models, and robust ML, backed by strong technical skills in Python, C, and full-stack development.</p>
         
         <div class="research-interests">
           <h3>Research Interests</h3>
           <ul>
-            <li>Trustworthy Machine Learning</li>
+            <li>Trustworthy ML</li>
             <li>Vision-Language Models</li>
             <li>Adversarial Robustness</li>
             <li>Conversational AI</li>

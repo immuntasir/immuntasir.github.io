@@ -20,7 +20,7 @@
 
 /* ===== Hero Section ===== */
 .modern-home {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem 1rem;
 }
@@ -194,10 +194,10 @@
 }
 
 .news-item {
-  padding: 1rem;
-  border-left: 3px solid var(--secondary-color);
+  padding: 0.6rem 0.8rem;
+  border-left: 2px solid var(--secondary-color);
   background: var(--bg-light);
-  border-radius: 4px;
+  border-radius: 3px;
   transition: var(--transition);
 }
 
@@ -209,16 +209,17 @@
 
 .news-date {
   display: inline-block;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: var(--primary-color);
   font-weight: 600;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.15rem;
 }
 
 .news-text {
-  margin: 0.25rem 0 0 0;
+  margin: 0.15rem 0 0 0;
   color: var(--text-dark);
-  line-height: 1.6;
+  line-height: 1.4;
+  font-size: 0.85rem;
 }
 
 .news-text p {

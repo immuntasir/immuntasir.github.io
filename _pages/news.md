@@ -28,7 +28,7 @@ author_profile: false
 
 <style>
 .news-page {
-  max-width: 900px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem 1rem;
 }
@@ -50,8 +50,8 @@ author_profile: false
 
 .news-item-full {
   display: flex;
-  gap: 2rem;
-  margin-bottom: 2rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
   position: relative;
 }
 
@@ -59,31 +59,31 @@ author_profile: false
   content: '';
   position: absolute;
   left: -2.5rem;
-  top: 0.5rem;
-  width: 12px;
-  height: 12px;
+  top: 0.3rem;
+  width: 8px;
+  height: 8px;
   background: var(--primary-color);
   border-radius: 50%;
-  border: 3px solid var(--bg-white);
-  box-shadow: 0 0 0 2px var(--primary-color);
+  border: 2px solid var(--bg-white);
+  box-shadow: 0 0 0 1px var(--primary-color);
 }
 
 .news-date-full {
   flex-shrink: 0;
   text-align: center;
-  min-width: 80px;
+  min-width: 60px;
 }
 
 .news-date-full .month {
   display: block;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--primary-color);
 }
 
 .news-date-full .year {
   display: block;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: var(--text-light);
   font-weight: 600;
 }
@@ -91,8 +91,8 @@ author_profile: false
 .news-content-full {
   flex: 1;
   background: var(--bg-white);
-  padding: 1.5rem;
-  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
   box-shadow: var(--shadow);
   transition: var(--transition);
 }
@@ -105,7 +105,8 @@ author_profile: false
 .news-content-full p {
   margin: 0;
   color: var(--text-dark);
-  line-height: 1.7;
+  line-height: 1.4;
+  font-size: 0.9rem;
 }
 
 .news-content-full a {
