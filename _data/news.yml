@@ -1,0 +1,26 @@
+# News items for the homepage
+# Newest items first
+
+- date: "2025-08-01"
+  text: "Our [paper](https://arxiv.org/abs/2507.19598) on adversarial robustness of code language models got accepted in EMNLP '25."
+  
+- date: "2025-07-01"
+  text: "We won the [Amazon Nova AI Challenge](https://www.amazon.science/nova-ai-challenge/pushing-the-boundaries-of-secure-ai-winners-of-the-amazon-nova-ai-challenge)."
+  
+- date: "2025-05-01"
+  text: "Started my internship at Google DeepMind."
+  
+- date: "2025-02-01"
+  text: "Our [paper](https://arxiv.org/abs/2412.19331) on part-focused semantic co-segmentation with vision-language models got accepted in CVPR '25."
+  
+- date: "2024-05-01"
+  text: "Started my internship at IBM Research."
+  
+- date: "2023-10-01"
+  text: "My paper on multi-modal representation learning for image-to-text and text-to-image retrieval got accepted at WACV."
+  
+- date: "2023-08-15"
+  text: "Our team advanced to the finals of the Amazon Alexa Prize Taskbot Challenge 2."
+  
+- date: "2023-08-01"
+  text: "My [paper](https://doi.org/10.1145/3583780.3615485) on human-in-the-loop model selection for set expansion got accepted at CIKM."

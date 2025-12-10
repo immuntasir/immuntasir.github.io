@@ -1,0 +1,236 @@
+# Publications data file
+# Each entry should have a DOI and optional overrides
+# 
+# Required fields:
+#   - id: DOI identifier (e.g., doi:10.1101/2025.06.19.660613)
+#
+# Optional fields (will override fetched data if provided):
+#   - title: Publication title
+#   - authors: List of author names
+#   - publisher: Publisher/venue name
+#   - date: Publication date (YYYY-MM-DD format)
+#   - link: URL to publication
+#   - pdf: URL to PDF file
+#   - code: URL to code repository
+#   - slides: URL to presentation slides
+#   - video: URL to video presentation
+#   - bibtex: BibTeX citation
+#   - abstract: Publication abstract
+#   - image: Featured image for the publication
+#   - tags: List of tags/keywords
+#   - featured: Set to true to feature this publication
+
+publications:
+  - id: doi:10.1145/3459637.3481950
+    title: 'SAUCE: Truncated Sparse Document Signature Bit-Vectors for Fast Web-Scale
+      Corpus Expansion'
+    authors:
+    - Muntasir Wahed
+    - Daniel Gruhl
+    - Alfredo Alba
+    - Anna Lisa Gentile
+    - Petar Ristoski
+    - Chad DeLuca
+    - Steve Welch
+    - Ismini Lourentzou
+    publisher: Proceedings of the 30th ACM International Conference on Information &amp;
+      Knowledge Management
+    date: '2021-10-26'
+    link: https://doi.org/gqt864
+    image: images/publications/sauce.PNG
+    tags:
+    - information retrieval
+    _cache: 2f132398073e96f2052402bc92d521827ae64d2056a0f5bd0034eb371ad96541
+  - id: doi:10.48550/arXiv.2204.10314
+    title: Adversarial Contrastive Learning by Permuting Cluster Assignments
+    authors:
+    - Muntasir Wahed
+    - Afrina Tabassum
+    - Ismini Lourentzou
+    publisher: arXiv
+    date: '2022-01-01'
+    link: https://doi.org/gqt866
+    image: images/publications/swaro.PNG
+    tags:
+    - contrastive learning
+    - self-supervised learning
+    - adversarial attacks
+    - robust representations
+  - id: doi:10.48550/arXiv.2206.01197
+    title: Hard Negative Sampling Strategies for Contrastive Representation Learning
+    authors:
+    - Afrina Tabassum
+    - Muntasir Wahed
+    - Hoda Eldardiry
+    - Ismini Lourentzou
+    publisher: arXiv
+    date: '2022-01-01'
+    link: https://doi.org/gqt867
+    image: images/publications/hard_negative.PNG
+    tags:
+    - contrastive learning
+    - self-supervised learning
+  - id: doi:10.1109/BigData55660.2022.10020861
+    title: Task-Driven Privacy-Preserving Data-Sharing Framework for the Industrial
+      Internet
+    authors:
+    - Parshin Shojaee
+    - Yingyan Zeng
+    - Muntasir Wahed
+    - Avi Seth
+    - Ran Jin
+    - Ismini Lourentzou
+    publisher: 2022 IEEE International Conference on Big Data (Big Data)
+    date: '2022-12-17'
+    link: https://doi.org/gstd73
+    image: images/publications/PRIED.PNG
+    tags:
+    - privacy-preserving ML
+  - id: doi:10.1145/3583780.3615485
+    title: 'MArBLE: Hierarchical Multi-Armed Bandits for Human-in-the-Loop Set Expansion'
+    authors:
+    - Muntasir Wahed
+    - Daniel Gruhl
+    - Ismini Lourentzou
+    publisher: Proceedings of the 32nd ACM International Conference on Information and
+      Knowledge Management
+    date: '2023-10-21'
+    link: https://doi.org/gs24mj
+    image: images/publications/MARBLE.PNG
+    tags:
+    - entity extraction
+    - model selection
+    - natural language processing
+  - id: doi:10.1145/3583780.3615485
+    title: Fine-Grained Alignment for Cross-Modal Recipe Retrieval
+    authors:
+    - Muntasir Wahed
+    - Xiaona Zhou
+    - Tianjiao Yu
+    - Ismini Lourentzou
+    publisher: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+    date: '2024-01-04'
+    link: https://openaccess.thecvf.com/content/WACV2024/papers/Wahed_Fine-Grained_Alignment_for_Cross-Modal_Recipe_Retrieval_WACV_2024_paper.pdf
+    image: images/publications/FARM.PNG
+    tags:
+    - multimodal learning
+    - contrastive learning
+    - robust representations
+  - id: doi:10.48550/arXiv.2412.15209
+    title: 'PRIMA: Multi-Image Vision-Language Models for Reasoning Segmentation'
+    authors:
+    - Muntasir Wahed
+    - Kiet A. Nguyen
+    - Adheesh Sunil Juvekar
+    - Xinzhuo Li
+    - Xiaona Zhou
+    - Vedant Shah
+    - Tianjiao Yu
+    - Pinar Yanardag
+    - Ismini Lourentzou
+    publisher: arXiv
+    date: '2024-12-31'
+    link: https://doi.org/g9mwdb
+    image: images/publications/prima.png
+    tags:
+    - vision-language models
+    - pixel-grounding
+  - id: doi:10.48550/arXiv.2412.19331
+    title: 'CALICO: Part-Focused Semantic Co-Segmentation with Large Vision-Language
+      Models'
+    authors:
+    - Kiet A. Nguyen
+    - Adheesh Juvekar
+    - Tianjiao Yu
+    - Muntasir Wahed
+    - Ismini Lourentzou
+    publisher: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+    date: '2025-06-12'
+    link: https://doi.org/g9mwdc
+    image: images/publications/calico.png
+    tags:
+    - vision-language models
+    - pixel-grounding
+  - id: doi:10.48550/arXiv.2503.10628
+    title: 'Uncertainty in Action: Confidence Elicitation in Embodied Agents'
+    authors:
+    - Tianjiao Yu
+    - Vedant Shah
+    - Muntasir Wahed
+    - Kiet A. Nguyen
+    - Adheesh Juvekar
+    - Tal August
+    - Ismini Lourentzou
+    publisher: arXiv
+    date: '2025-01-01'
+    link: https://doi.org/g9mwdd
+    image: images/publications/uncertainty.png
+    tags:
+    - embodied AI
+    - uncertainty estimation
+  - id: doi:10.48550/arXiv.2507.19598
+    title: 'MOCHA: Are Code Language Models Robust Against Multi-Turn Malicious Coding
+      Prompts?'
+    authors:
+    - Muntasir Wahed
+    - Xiaona Zhou
+    - Kiet A. Nguyen
+    - Tianjiao Yu
+    - Nirav Diwan
+    - Gang Wang
+    - "Dilek Hakkani-T\xFCr"
+    - Ismini Lourentzou
+    publisher: Conference on Empirical Methods in Natural Language Processing (EMNLP)
+      Findings
+    date: '2025-11-04'
+    link: https://doi.org/g939vh
+    image: images/publications/mocha.png
+  - id: doi:10.48550/arXiv.2507.19060
+    title: 'PurpCode: Reasoning for Safer Code Generation'
+    authors:
+    - Jiawei Liu
+    - Nirav Diwan
+    - Zhe Wang
+    - Haoyu Zhai
+    - Xiaona Zhou
+    - Kiet A. Nguyen
+    - Tianjiao Yu
+    - Muntasir Wahed
+    - Yinlin Deng
+    - Hadjer Benkraouda
+    - Yuxiang Wei
+    - Lingming Zhang
+    - Ismini Lourentzou
+    - Gang Wang
+    publisher: Conference on Neural Information Processing Systems (NeurIPS)
+    date: '2025-12-07'
+    link: https://doi.org/g939vj
+    image: images/publications/purpcode.png
+  - id: doi:10.48550/arXiv.2506.21546
+    title: 'HalluSegBench: Counterfactual Visual Reasoning for Segmentation Hallucination
+      Evaluation'
+    authors:
+    - Xinzhuo Li
+    - Adheesh Juvekar
+    - Xingyou Liu
+    - Muntasir Wahed
+    - Kiet A. Nguyen
+    - Ismini Lourentzou
+    publisher: arXiv
+    date: '2025-01-01'
+    link: https://doi.org/g939vn
+    image: images/publications/hallusegbench.png
+  - id: doi:10.48550/arXiv.2506.17212
+    title: 'Part$^{2}$GS: Part-aware Modeling of Articulated Objects using 3D Gaussian
+      Splatting'
+    authors:
+    - Tianjiao Yu
+    - Vedant Shah
+    - Muntasir Wahed
+    - Ying Shen
+    - Kiet A. Nguyen
+    - Ismini Lourentzou
+    publisher: arXiv
+    date: '2025-01-01'
+    link: https://doi.org/g939vp
+    image: images/publications/part2gs.gif
