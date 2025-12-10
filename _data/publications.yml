@@ -148,6 +148,8 @@ publications:
     date: '2025-06-12'
     link: https://doi.org/g9mwdc
     image: images/publications/calico.png
+    featured: true
+    featured_order: 2
     tags:
     - vision-language models
     - pixel-grounding
@@ -185,6 +187,8 @@ publications:
     date: '2025-11-04'
     link: https://doi.org/g939vh
     image: images/publications/mocha.png
+    featured: true
+    featured_order: 1
   - id: doi:10.48550/arXiv.2507.19060
     title: 'PurpCode: Reasoning for Safer Code Generation'
     authors:
@@ -206,6 +210,8 @@ publications:
     date: '2025-12-07'
     link: https://doi.org/g939vj
     image: images/publications/purpcode.png
+    featured: true
+    featured_order: 3
   - id: doi:10.48550/arXiv.2506.21546
     title: 'HalluSegBench: Counterfactual Visual Reasoning for Segmentation Hallucination
       Evaluation'

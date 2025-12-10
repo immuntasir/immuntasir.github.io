@@ -100,8 +100,8 @@ redirect_from:
   <section class="highlights-section">
     <h2>Featured Publications</h2>
     <div class="publications-grid">
-      {% for pub in site.data.publications.publications %}
-      {% if pub.featured %}
+      {% assign featured_pubs = site.data.publications.publications | where: "featured", true | sort: "featured_order" %}
+      {% for pub in featured_pubs %}
       <div class="publication-card">
         {% if pub.image %}
         <div class="pub-image">
@@ -110,8 +110,7 @@ redirect_from:
         {% endif %}
         <div class="pub-content">
           <h3>{{ pub.title }}</h3>
-          <p class="pub-authors">{{ pub.authors | join: ", " }}</p>
-          <p class="pub-venue">{{ pub.venue }} • {{ pub.date | date: "%Y" }}</p>
+          <p class="pub-venue">{{ pub.publisher }} • {{ pub.date | date: "%Y" }}</p>
           <div class="pub-links">
             {% if pub.link %}
             <a href="{{ pub.link }}" target="_blank">Paper</a>
@@ -125,7 +124,6 @@ redirect_from:
           </div>
         </div>
       </div>
-      {% endif %}
       {% endfor %}
     </div>
     <a href="{{ site.baseurl }}/publications/" class="view-more">View all publications →</a>

@@ -40,7 +40,11 @@ author_profile: false
           
           <p class="pub-venue-date">
             {% if pub.publisher %}
-            <span class="venue">{{ pub.publisher }}</span>
+              {% if pub.publisher == "arXiv" %}
+              <span class="venue">Preprint</span>
+              {% else %}
+              <span class="venue">{{ pub.publisher }}</span>
+              {% endif %}
             {% elsif pub.venue %}
             <span class="venue">{{ pub.venue }}</span>
             {% endif %}
@@ -89,10 +93,6 @@ author_profile: false
         <button class="btn btn-secondary bibtex-toggle" data-target="bibtex-{{ forloop.index }}">
           <i class="fas fa-quote-right"></i> BibTeX
         </button>
-        {% endif %}
-        
-        {% if pub.id %}
-        <span class="pub-doi">DOI: <a href="https://doi.org/{{ pub.id | remove: 'doi:' }}" target="_blank">{{ pub.id | remove: 'doi:' }}</a></span>
         {% endif %}
       </div>
       
