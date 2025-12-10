@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Muntasir Wahed"
 title_separator          : "-"
 name                     : &name "Muntasir Wahed"
-description              : &description "personal description"
+description              : &description "CS Ph.D. Candidate @ UIUC | Trustworthy & Multi-modal Foundation Models"
 url                      : https://mwahed.com/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "immuntasir/mwahed"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Muntasir Wahed"
   avatar           : "profile.jpg"
-  current_status   : "Ph.D. Student"
+  current_status   : "Ph.D. Candidate"
   current_dept     : "Computer Science"
   current_org      : "University of Illinois Urbana-Champaign"
   bio              :
