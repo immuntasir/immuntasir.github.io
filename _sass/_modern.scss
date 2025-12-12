@@ -405,20 +405,23 @@
 
 .pub-image {
   width: 100%;
-  min-height: 250px;
+  height: 250px;
   overflow: hidden;
-  background: var(--bg-light);
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pub-image img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
   object-position: center;
 }
 
 .pub-content {
-  padding: 1.5rem;
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
 }
 
 .pub-content h3 {
