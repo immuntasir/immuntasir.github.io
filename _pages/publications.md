@@ -65,6 +65,12 @@ author_profile: false
         </a>
         {% endif %}
         
+        {% if pub.project_page %}
+        <a href="{{ pub.project_page }}" class="btn btn-primary" target="_blank">
+          <i class="fas fa-globe"></i> Project
+        </a>
+        {% endif %}
+        
         {% if pub.pdf %}
         <a href="{{ pub.pdf }}" class="btn btn-secondary" target="_blank">
           <i class="fas fa-file-pdf"></i> PDF

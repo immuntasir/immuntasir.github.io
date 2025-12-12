@@ -135,6 +135,7 @@ publications:
     tags:
     - vision-language models
     - pixel-grounding
+    project_page: http://plan-lab.github.io/prima
   - id: doi:10.48550/arXiv.2412.19331
     title: 'CALICO: Part-Focused Semantic Co-Segmentation with Large Vision-Language
       Models'
@@ -148,11 +149,13 @@ publications:
     date: '2025-06-12'
     link: https://doi.org/g9mwdc
     image: images/publications/calico.png
+    featured_image: images/publications/calico.png
     featured: true
     featured_order: 2
     tags:
     - vision-language models
     - pixel-grounding
+    project_page: http://plan-lab.github.io/calico
   - id: doi:10.48550/arXiv.2503.10628
     title: 'Uncertainty in Action: Confidence Elicitation in Embodied Agents'
     authors:
@@ -187,8 +190,10 @@ publications:
     date: '2025-11-04'
     link: https://doi.org/g939vh
     image: images/publications/mocha.png
+    featured_image: images/publications/mocha_featured.png
     featured: true
     featured_order: 1
+    project_page: http://plan-lab.github.io/mocha
   - id: doi:10.48550/arXiv.2507.19060
     title: 'PurpCode: Reasoning for Safer Code Generation'
     authors:
@@ -210,8 +215,10 @@ publications:
     date: '2025-12-07'
     link: https://doi.org/g939vj
     image: images/publications/purpcode.png
+    featured_image: images/publications/purpcode_featured.png
     featured: true
     featured_order: 3
+    project_page: https://huggingface.co/purpcode
   - id: doi:10.48550/arXiv.2506.21546
     title: 'HalluSegBench: Counterfactual Visual Reasoning for Segmentation Hallucination
       Evaluation'
@@ -226,6 +233,7 @@ publications:
     date: '2025-01-01'
     link: https://doi.org/g939vn
     image: images/publications/hallusegbench.png
+    project_page: http://plan-lab.github.io/hallusegbench
   - id: doi:10.48550/arXiv.2506.17212
     title: 'Part$^{2}$GS: Part-aware Modeling of Articulated Objects using 3D Gaussian
       Splatting'
@@ -240,3 +248,4 @@ publications:
     date: '2025-01-01'
     link: https://doi.org/g939vp
     image: images/publications/part2gs.gif
+    project_page: http://plan-lab.github.io/part2gs

@@ -107,7 +107,7 @@ redirect_from:
       <div class="publication-card">
         {% if pub.image %}
         <div class="pub-image">
-          <img src="{{ site.baseurl }}/{{ pub.image }}" alt="{{ pub.title }}">
+          <img src="{{ site.baseurl }}/{{ pub.featured_image }}" alt="{{ pub.title }}">
         </div>
         {% endif %}
         <div class="pub-content">
@@ -116,6 +116,9 @@ redirect_from:
           <div class="pub-links">
             {% if pub.link %}
             <a href="{{ pub.link }}" target="_blank">Paper</a>
+            {% endif %}
+            {% if pub.project_page %}
+            <a href="{{ pub.project_page }}" target="_blank">Project</a>
             {% endif %}
             {% if pub.pdf %}
             <a href="{{ pub.pdf }}" target="_blank">PDF</a>
