@@ -8,7 +8,7 @@ author_profile: false
 <div class="publications-page">
   <div class="page-header">
     <h1>Publications</h1>
-    <p class="subtitle">You can also find my articles on <a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a>.</p>
+    <p class="subtitle">You can also find my publications on <a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a>.</p>
   </div>
   
   <div class="publications-container">
